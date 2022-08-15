@@ -15,5 +15,10 @@ This is a concept file with following syntax for each concept.
 * "KategorilerKontrol" elementinin görünür olması kontrol edilir "10"
 * "hobiScroll" scroll element
 * "hobiScroll" elementinin görünür olması kontrol edilir "10"
+
+# Hobiler kategorisinden kitap seçimi yapılır
 * "hobiScroll" elementine tıkla
 * "scrollCenter" scroll element center
+* "selectRandomBook" elementine göre random geçiş
+* "BookInfoKontrol" elementinin görünür olması kontrol edilir "10"
+* "UrunAdediArttırma" elementine tıkla

@@ -50,19 +50,19 @@
     "type": "xpath"
   },
   {
-    "key": "",
-    "value": "",
-    "type": ""
+    "key": "selectRandomBook",
+    "value": ".prod-list-item.col.col-3.col-md-3.col-sm-6.col-xs-6.productItem.ease",
+    "type": "css"
   },
   {
-    "key": "",
-    "value": "",
-    "type": ""
+    "key": "BookInfoKontrol",
+    "value": ".col.discountPrice",
+    "type": "css"
   },
   {
-    "key": "",
-    "value": "",
-    "type": ""
+    "key": "UrunAdediArttırma",
+    "value": "//a[@title='+']",
+    "type": "xpath"
   },
   {
     "key": "",

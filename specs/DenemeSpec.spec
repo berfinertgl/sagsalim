@@ -9,3 +9,4 @@ Kırmızı Kedi Senaryo
 ----------------
 * Kırmızı Kedi sitesine login olma
 * Kategoriler sekmesine gidilir
+* Hobiler kategorisinden kitap seçimi yapılır
