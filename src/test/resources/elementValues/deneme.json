@@ -15,6 +15,126 @@
     "type": "css"
   },
   {
+    "key": "hesap",
+    "value": "//span[text()='Hesap']",
+    "type": "xpath"
+  },
+  {
+    "key": "email",
+    "value": "//input[@id='pop-email']",
+    "type": "xpath"
+  },
+  {
+    "key": "şifre",
+    "value": "//input[@id='pop-password']",
+    "type": "xpath"
+  },
+  {
+    "key": "giriş yap buton",
+    "value": "popup-member-login",
+    "type": "id"
+  },
+  {
+    "key": "Giriş Kontrol",
+    "value": "//span[text()='Başarıyla giriş yaptınız']",
+    "type": "xpath"
+  },
+  {
+    "key": "adres buton",
+    "value": "//a[@href='/adres']",
+    "type": "xpath"
+  },
+  {
+    "key": "isim bölümü",
+    "value": "fullname",
+    "type": "id"
+  },
+  {
+    "key": "yeni adres",
+    "value": "//button[@data-url='/srv/service/content/get/1110/insert-update-address/0']",
+    "type": "xpath"
+  },
+  {
+    "key": "Adres tipi",
+    "value": "//select[@id='is_company_active']",
+    "type": "xpath"
+  },
+  {
+    "key": "adresin tipi",
+    "value": "//option[text()='Bireysel Adres']",
+    "type": "xpath"
+  },
+  {
+    "key": "adres tarifi",
+    "value": "//textarea[@id='address']",
+    "type": "xpath"
+  },
+  {
+    "key": "posta kodu",
+    "value": "//input[@id='post_code']",
+    "type": "xpath"
+  },
+  {
+    "key": "il",
+    "value": "//select[@id='city_code']",
+    "type": "xpath"
+  },
+  {
+    "key": "İzmir",
+    "value": "//option[@value='1']",
+    "type": "xpath"
+  },
+  {
+    "key": "ilçe",
+    "value": "//input[@id='town']",
+    "type": "xpath"
+  },
+  {
+    "key": "semt",
+    "value": "//input[@id='district']",
+    "type": "xpath"
+  },
+  {
+    "key": "tel",
+    "value": "//input[@id='mobile_phone']",
+    "type": "xpath"
+  },
+  {
+    "key": "Kaydet",
+    "value": "//button[text()='Kaydet']",
+    "type": "xpath"
+  },
+  {
+    "key": "adres ekle görünür mü",
+    "value": ".btn.col-12.btn-upper.popupTitle",
+    "type": "css"
+  },
+  {
+    "key": "anasayfa",
+    "value": "homeLink",
+    "type": "id"
+  },
+  {
+    "key": "arama",
+    "value": "//input[@id='live-search']",
+    "type": "xpath"
+  },
+  {
+    "key": "kitaplar doğrulama",
+    "value": ".main-title.underlined",
+    "type": "css"
+  },
+  {
+    "key": "çıkış yap",
+    "value": ".logout.btn.col-12.btn-default.btn-big.btn-upper.btn-radius.a-center",
+    "type": "css"
+  },
+  {
+    "key": "adres kapat",
+    "value": ".pClose.close",
+    "type": "css"
+  },
+  {
     "key": "",
     "value": "",
     "type": ""
@@ -119,4 +239,5 @@
     "value": "",
     "type": ""
   }
+
 ]

@@ -548,7 +548,7 @@ public class StepImplementation {
 
     }
     @Step("<key> elementinden random seçim")
-    public void random(String key){
+    public void randomurl(String key){
         methods.randomChooseURL(methods.getBy(key));
     }
 

@@ -1,11 +1,51 @@
 Created by testinium on 1.08.2021
 
 This is a concept file with following syntax for each concept.
-# <username> username ve <password> password girilir
-* "username" elementinin görünür olması kontrol edilir
-* "password" elementinin görünür olması kontrol edilir
-* "signIn" elementinin görünür olması kontrol edilir
-* "username" elementine <username> değerini yaz
-* "password" elementine <password> değerini yaz
-* "signIn" elementinin tıklanabilir olması kontrol edilir
-* "signIn" elementine tıkla
+# Giriş Yap
+* "hesap" elementinin görünür olması kontrol edilir "10"
+* "hesap" elementine tıkla
+* "email" elementinin görünür olması kontrol edilir "10"
+* "email" elementine "nevresimtakimi35@gmail.com" değerini yaz
+* "şifre" elementine "12345qwer" değerini yaz
+* "giriş yap buton" elementine tıkla
+* "3" saniye bekle
+
+# Hesaba gidilir
+* "hesap" elementinin görünür olması kontrol edilir "10"
+* "hesap" elementine tıkla
+* "hesap" elementinin görünür olması kontrol edilir "10"
+* "isim bölümü" elementinin görünür olması kontrol edilir "10"
+* "adres buton" elementine tıkla
+* "yeni adres" elementinin görünür olması kontrol edilir "10"
+* "yeni adres" elementine tıkla
+
+# Adres Bilgileri
+* "adres ekle görünür mü" elementinin görünür olması kontrol edilir "10"
+* "Adres tipi" elementine tıkla
+* "adresin tipi" elementine tıkla
+* "adres tarifi" elementine tıkla
+* "adres tarifi" elementine "1921 sokak no3 daire 8" değerini yaz
+* "posta kodu" elementine git
+* "posta kodu" elementine "35000" değerini yaz
+* "il" elementine tıkla
+* "İzmir" elementine git
+* "1" saniye bekle
+* "İzmir" elementine tıkla
+* "ilçe" elementine "Karataş" değerini yaz
+* "semt" elementine "bayraklı" değerini yaz
+* "tel" elementine "5554160183" sayı değerini yaz
+* "Kaydet" elementine tıkla
+* "adres kapat" elementine tıkla
+* "anasayfa" elementinin görünür olması kontrol edilir "10"
+
+# Arama bölümü
+* "anasayfa" elementine tıkla
+* "anasayfa" elementinin görünür olması kontrol edilir "10"
+* "arama" elementine "aziz nesin" değerini yaz
+* "arama" elementinde enter komutunu bas
+* "kitaplar doğrulama" elementinin görünür olması kontrol edilir "10"
+* "hesap" elementine tıkla
+
+# Çıkış yap
+* "hesap" elementinin görünür olması kontrol edilir "10"
+* "çıkış yap" elementine tıkla
