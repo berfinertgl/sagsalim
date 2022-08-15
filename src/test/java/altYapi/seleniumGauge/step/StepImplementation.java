@@ -547,10 +547,10 @@ public class StepImplementation {
         methods.scrollWithAction(methods.getBy(key));
 
     }
-    @Step("<key> elementinden random seçim")
-    public void random(String key){
+  /*  @Step("<key> elementinden random seçim")
+    public void randomURL(String key){
         methods.randomChooseURL(methods.getBy(key));
-    }
+    }*/
 
     @Step("<key> elementinde enter komutunu bas")
     public void enterKey(String key){

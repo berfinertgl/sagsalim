@@ -1,11 +1,24 @@
 Created by testinium on 1.08.2021
 
 This is a concept file with following syntax for each concept.
-# <username> username ve <password> password girilir
-* "username" elementinin görünür olması kontrol edilir
-* "password" elementinin görünür olması kontrol edilir
-* "signIn" elementinin görünür olması kontrol edilir
-* "username" elementine <username> değerini yaz
-* "password" elementine <password> değerini yaz
-* "signIn" elementinin tıklanabilir olması kontrol edilir
-* "signIn" elementine tıkla
+# Kırmızı Kedi sitesine login olma
+* "clickHesap" elementine tıkla
+* "loginOlmaKontrol" elementinin görünür olması kontrol edilir "10"
+* "Email" elementine "nevresimtakimi35@gmail.com" değerini yaz
+* "Password" elementine "12345qwer" değerini yaz
+* "clickGirisYap" elementine tıkla
+* "AnasayfaKontrol" elementinin görünür olması kontrol edilir "10"
+* "5" saniye bekle
+
+# Kategoriler sekmesine gidilir
+* "clickKategoriler" elementine tıkla
+* "KategorilerKontrol" elementinin görünür olması kontrol edilir "10"
+* "hobiScroll" scroll element
+* "hobiScroll" elementinin görünür olması kontrol edilir "10"
+
+# Hobiler kategorisinden kitap seçimi yapılır
+* "hobiScroll" elementine tıkla
+* "scrollCenter" scroll element center
+* "selectRandomBook" elementine göre random geçiş
+* "BookInfoKontrol" elementinin görünür olması kontrol edilir "10"
+* "UrunAdediArttırma" elementine tıkla

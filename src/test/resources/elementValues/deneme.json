@@ -1,68 +1,68 @@
 [
   {
-    "key": "username",
-    "value": "username",
+    "key": "clickHesap",
+    "value": "//a[@data-url='/srv/service/customer/login-form']",
+    "type": "xpath"
+  },
+  {
+    "key": "loginOlmaKontrol",
+    "value": "//div[text()='Üye giriş bilgilerini giriniz.']",
+    "type": "xpath"
+  },
+  {
+    "key": "Email",
+    "value": "pop-email",
     "type": "id"
   },
   {
-    "key": "password",
-    "value": "password",
+    "key": "Password",
+    "value": "pop-password",
     "type": "id"
   },
   {
-    "key": "signIn",
-    "value": "input[value='Sign In']",
+    "key": "clickGirisYap",
+    "value": "popup-member-login",
+    "type": "id"
+  },
+  {
+    "key": "AnasayfaKontrol",
+    "value": "//img[@src='/Data/EditorFiles/kirmizikedi-logotype.png']",
+    "type": "xpath"
+  },
+  {
+    "key": "clickKategoriler",
+    "value": "//li[@class='ease']/a[@href='/kitap/kategoriler' and text()='Kategoriler']",
+    "type": "xpath"
+  },
+  {
+    "key": "KategorilerKontrol",
+    "value": "//h1[@class='main-title underlined']",
+    "type": "xpath"
+  },
+  {
+    "key": "hobiScroll",
+    "value": "//a[@href='/hobi']",
+    "type": "xpath"
+  },
+  {
+    "key": "scrollCenter",
+    "value": "//div[@class='row mb box-border b-right b-bottom']",
+    "type": "xpath"
+  },
+  {
+    "key": "selectRandomBook",
+    "value": ".prod-list-item.col.col-3.col-md-3.col-sm-6.col-xs-6.productItem.ease",
     "type": "css"
   },
   {
-    "key": "",
-    "value": "",
-    "type": ""
+    "key": "BookInfoKontrol",
+    "value": ".col.discountPrice",
+    "type": "css"
   },
   {
-    "key": "",
-    "value": "",
-    "type": ""
-  },
-  {
-    "key": "",
-    "value": "",
-    "type": ""
-  },
-  {
-    "key": "",
-    "value": "",
-    "type": ""
-  },
-  {
-    "key": "",
-    "value": "",
-    "type": ""
-  },
-  {
-    "key": "",
-    "value": "",
-    "type": ""
-  },
-  {
-    "key": "",
-    "value": "",
-    "type": ""
-  },
-  {
-    "key": "",
-    "value": "",
-    "type": ""
-  },
-  {
-    "key": "",
-    "value": "",
-    "type": ""
-  },
-  {
-    "key": "",
-    "value": "",
-    "type": ""
+    "key": "UrunAdediArttırma",
+    "value": "//a[@title='+']",
+    "type": "xpath"
   },
   {
     "key": "",

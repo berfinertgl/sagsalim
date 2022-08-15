@@ -1030,9 +1030,10 @@ public class Methods {
         driver.get(urlke);
         System.out.println("Random sayı=" + sayi);
     }
-    public void scrollWithAction(By by) {
+    public boolean scrollWithAction(By by) {
         Actions actions = new Actions(driver);
         actions.moveToElement(findElement(by)).build().perform();
+        return false;
     }
     public void randomChoose(By by){
         List<WebElement> list = driver.findElements(by);

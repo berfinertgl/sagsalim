@@ -5,8 +5,8 @@ Created by testinium on 1.08.2021
 This is an executable specification file which follows markdown syntax.
 Every heading in this file denotes a scenario. Every bulleted point denotes a step.
      
-Scenario Heading
+Kırmızı Kedi Senaryo
 ----------------
-
-* "deneme" username ve "deneme" password girilir
-* "10" saniye bekle
+* Kırmızı Kedi sitesine login olma
+* Kategoriler sekmesine gidilir
+* Hobiler kategorisinden kitap seçimi yapılır
