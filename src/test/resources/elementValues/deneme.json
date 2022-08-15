@@ -1,53 +1,53 @@
 [
   {
-    "key": "username",
-    "value": "username",
+    "key": "clickHesap",
+    "value": "//a[@data-url='/srv/service/customer/login-form']",
+    "type": "xpath"
+  },
+  {
+    "key": "loginOlmaKontrol",
+    "value": "//div[text()='Üye giriş bilgilerini giriniz.']",
+    "type": "xpath"
+  },
+  {
+    "key": "Email",
+    "value": "pop-email",
     "type": "id"
   },
   {
-    "key": "password",
-    "value": "password",
+    "key": "Password",
+    "value": "pop-password",
     "type": "id"
   },
   {
-    "key": "signIn",
-    "value": "input[value='Sign In']",
-    "type": "css"
+    "key": "clickGirisYap",
+    "value": "popup-member-login",
+    "type": "id"
   },
   {
-    "key": "",
-    "value": "",
-    "type": ""
+    "key": "AnasayfaKontrol",
+    "value": "//img[@src='/Data/EditorFiles/kirmizikedi-logotype.png']",
+    "type": "xpath"
   },
   {
-    "key": "",
-    "value": "",
-    "type": ""
+    "key": "clickKategoriler",
+    "value": "//li[@class='ease']/a[@href='/kitap/kategoriler' and text()='Kategoriler']",
+    "type": "xpath"
   },
   {
-    "key": "",
-    "value": "",
-    "type": ""
+    "key": "KategorilerKontrol",
+    "value": "//h1[@class='main-title underlined']",
+    "type": "xpath"
   },
   {
-    "key": "",
-    "value": "",
-    "type": ""
+    "key": "hobiScroll",
+    "value": "//a[@href='/hobi']",
+    "type": "xpath"
   },
   {
-    "key": "",
-    "value": "",
-    "type": ""
-  },
-  {
-    "key": "",
-    "value": "",
-    "type": ""
-  },
-  {
-    "key": "",
-    "value": "",
-    "type": ""
+    "key": "scrollCenter",
+    "value": "//div[@class='row mb box-border b-right b-bottom']",
+    "type": "xpath"
   },
   {
     "key": "",
