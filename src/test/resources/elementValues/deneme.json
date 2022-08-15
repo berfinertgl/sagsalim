@@ -1,78 +1,78 @@
 [
   {
-    "key": "username",
-    "value": "username",
-    "type": "id"
+    "key": "chooseCategory",
+    "value": "(//a[@href='/kitap/kategoriler'])[2]",
+    "type": "xpath"
   },
   {
-    "key": "password",
-    "value": "password",
-    "type": "id"
+    "key": "scrollHobi",
+    "value": "//a[text()='Hobi']",
+    "type": "xpath"
   },
   {
-    "key": "signIn",
-    "value": "input[value='Sign In']",
+    "key": "chooseHobi",
+    "value": "//a[@href='/hobi']",
+    "type": "xpath"
+  },
+  {
+    "key": "scrollThree",
+    "value": "(//div[@class='box col-12 proRowName'])[9]",
+    "type": "xpath"
+  },
+  {
+    "key": "chooseRandom",
+    "value": ".prod-list-item.col.col-3.col-md-3.col-sm-6.col-xs-6.productItem.ease",
     "type": "css"
   },
   {
-    "key": "",
-    "value": "",
-    "type": ""
+    "key": "scrollAddToBasket",
+    "value": "mobileBuyBtn",
+    "type": "id"
   },
   {
-    "key": "",
-    "value": "",
-    "type": ""
+    "key": "IncAdet",
+    "value": "//div[@class='fl col-9 qtyBtns']/a[2]",
+    "type": "xpath"
   },
   {
-    "key": "",
-    "value": "",
-    "type": ""
+    "key": "scrollComment",
+    "value": ".box.col-4.col-md-4.col-sm-12.col-xs-12.filter-box.loaded.active",
+    "type": "css"
   },
   {
-    "key": "",
-    "value": "",
-    "type": ""
+    "key": "clickAccount",
+    "value": ".col.hesabim-text.dn-xs.dn-sm.dn-md.forDesktop",
+    "type": "css"
   },
   {
-    "key": "",
-    "value": "",
-    "type": ""
+    "key": "inputMail",
+    "value": "//input[@name='pop-email']",
+    "type": "xpath"
   },
   {
-    "key": "",
-    "value": "",
-    "type": ""
+    "key": "inputPassword",
+    "value": "//input[@name='pop-password']",
+    "type": "xpath"
   },
   {
-    "key": "",
-    "value": "",
-    "type": ""
+    "key": "loginButton",
+    "value": "popup-member-login",
+    "type": "id"
   },
   {
-    "key": "",
-    "value": "",
-    "type": ""
+    "key": "addToBasket",
+    "value": ".col-12.col-sm-12.p-top.p-left.buyBtn",
+    "type": "css"
   },
   {
-    "key": "",
-    "value": "",
-    "type": ""
+    "key": "continue",
+    "value": "//button[@class='btn btn-radius btn-success']",
+    "type": "xpath"
   },
   {
-    "key": "",
-    "value": "",
-    "type": ""
-  },
-  {
-    "key": "",
-    "value": "",
-    "type": ""
-  },
-  {
-    "key": "",
-    "value": "",
-    "type": ""
+    "key": "scroll",
+    "value": ".col.fr.header-but.dn-xs.s.dn-sm.dn-md",
+    "type": "css"
   },
   {
     "key": "",
