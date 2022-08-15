@@ -1,11 +1,44 @@
 Created by testinium on 1.08.2021
 
 This is a concept file with following syntax for each concept.
-# <username> username ve <password> password girilir
-* "username" elementinin görünür olması kontrol edilir
-* "password" elementinin görünür olması kontrol edilir
-* "signIn" elementinin görünür olması kontrol edilir
-* "username" elementine <username> değerini yaz
-* "password" elementine <password> değerini yaz
-* "signIn" elementinin tıklanabilir olması kontrol edilir
-* "signIn" elementine tıkla
+# Siteye login olunur.
+* "clickAccount" elementinin tıklanabilir olması kontrol edilir
+* "clickAccount" elementine tıkla
+* "inputMail" elementine "nevresimtakimi35@gmail.com" değerini yaz
+* "inputPassword" elementine "12345qwer" değerini yaz
+* "loginButton" elementinin tıklanabilir olması kontrol edilir
+* "loginButton" elementine tıkla
+* "5" saniye bekle
+# Kategoriler seçilir.
+* "chooseCategory" elementinin tıklanabilir olması kontrol edilir "10"
+* "chooseCategory" elementine tıkla
+* waitPageLoadCompleteJs
+# Hobi kategorisine tıklanır
+* "scrollHobi" scroll element
+* "chooseHobi" elementinin tıklanabilir olması kontrol edilir
+* "chooseHobi" elementine tıkla
+* waitPageLoadCompleteJs
+# 3 kez scroll yapılır.
+* "scrollThree" elementinin görünür olması kontrol edilir
+* "scrollThree" scroll element
+# Random kitap seçilir.
+* "chooseRandom" elementine göre random geçiş
+* "2" saniye bekle
+* "scrollAddToBasket" elementinin görünür olması kontrol edilir "5"
+* "scrollAddToBasket" scroll element
+# Ürün adedi 1 arttırılır .
+* "IncAdet" elementinin tıklanabilir olması kontrol edilir "4"
+* "IncAdet" elementine tıkla
+
+# Açıklama bölümüne scroll yapılır.
+* "scrollComment" scroll element
+# Sepete eklenir.
+* "addToBasket" elementinin tıklanabilir olması kontrol edilir "4"
+* "addToBasket" elementine tıkla
+# Alışverişe devam butonuna tıklanır.
+* "continue" elementinin tıklanabilir olması kontrol edilir "4"
+* "continue" elementine tıkla
+# Hesaba tıklanır
+* "scroll" scroll element
+* "scroll" elementinin tıklanabilir olması kontrol edilir
+* "scroll" elementine tıkla
