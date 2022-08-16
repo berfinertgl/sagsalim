@@ -16,7 +16,7 @@ Scenario Heading
 * Açıklama bölümüne scroll yapılır.
 * Sepete eklenir.
 * Alışverişe devam butonuna tıklanır.
-* Hesaba tıklanır
+* Hesaba tıklanır.
 
 
 

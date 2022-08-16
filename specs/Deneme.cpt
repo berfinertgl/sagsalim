@@ -38,7 +38,7 @@ This is a concept file with following syntax for each concept.
 # Alışverişe devam butonuna tıklanır.
 * "continue" elementinin tıklanabilir olması kontrol edilir "4"
 * "continue" elementine tıkla
-# Hesaba tıklanır
+# Hesaba tıklanır.
 * "scroll" scroll element
 * "scroll" elementinin tıklanabilir olması kontrol edilir
 * "scroll" elementine tıkla
